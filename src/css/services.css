@@ -1,0 +1,142 @@
+#root {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.servicesTitle {
+  margin-left: 21%;
+}
+.serviceInfoDetails {
+  font-size: 18px;
+  color: rgb(116, 112, 112);
+}
+.one {
+  padding-left: 11%;
+  margin-top: 24px;
+}
+.two {
+  padding-left: 13%;
+  margin-top: -19px;
+}
+.three {
+  padding-left: 36%;
+  margin-top: -17px;
+}
+.catOne {
+  padding-left: 8%;
+  padding-top: 1%;
+}
+.lOne {
+  padding-left: 50%;
+  position: relative;
+  bottom: 47px;
+}
+.lTwo {
+  padding-left: 50%;
+  position: relative;
+  bottom: 47px;
+}
+.ServidecardTitle {
+  /* margin-left: 45%; */
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+#eventProvider {
+  height: 734px;
+}
+@media only screen and (max-width: 800px) {
+  #eventProvider {
+    height: auto;
+  }
+}
+.servicebasicInfo {
+  width: 28%;
+  height: 370px;
+  position: absolute;
+  top: 30%;
+  left: 67%;
+  background-color: rgb(39, 36, 36);
+  opacity: 0.9;
+}
+.servicebasicInfo ul li {
+  color: #ffff;
+  text-decoration: none;
+  padding-bottom: 12px;
+  /* list-style-type: none; */
+}
+@media only screen and (max-width: 800px) {
+  .serviceInfoDetails {
+    position: relative;
+    bottom: 501px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .servicebasicInfo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .mainBanner {
+    top: 28px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .two,
+  .three {
+    padding-left: 11%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .ServidecardTitle {
+    margin-left: -14%;
+    font-weight: bold;
+    margin-bottom: 7%;
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .slideRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 5%;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .ServicemainContainer {
+    margin-left: 7%;
+    font-weight: bold;
+    /* margin-bottom: 3%; */
+    /* margin-top: -125%; */
+    font-size: 19px;
+    /* margin-bottom: -365px;
+    /* margin-bottom: -365px; */
+  }
+}
+#eventFooter {
+  margin-top: 219px;
+  position: relative;
+  top: 550px;
+}
+#eventCards {
+  margin-right: 22px;
+  /* border: none; */
+}
+@media only screen and (max-width: 800px) {
+  #eventCards {
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+}
+/* @media only screen and (max-width: 800px) {
+  #registration {
+  }
+}
+
+#registration {
+  margin-top: 10px;
+} */

@@ -1,0 +1,58 @@
+.partners {
+  /* border: solid 1px red; */
+  height: 260px;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+.partTitle {
+  width: 100%;
+  margin-left: 42%;
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top: 4%;
+}
+.partCyber {
+  height: 150px;
+  /* margin-left: 11%; */
+  margin-left: 35%;
+  margin-top: 4%;
+}
+#seek {
+  width: 32%;
+  height: 22px;
+}
+#hills {
+  height: 160px;
+}
+hr {
+  width: 76%;
+}
+@media only screen and (max-width: 800px) {
+  .partners {
+    position: relative;
+    bottom: 385px;
+    /* margin-bottom: -55px; */
+    /* margin-bottom: 115px; */
+    margin-bottom: -303px;
+    height: 65px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .partTitle {
+    margin-left: 24%;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #seek {
+    width: 75%;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .partCyber {
+    height: 91px;
+    /* height: 114px; */
+    margin-left: 12%;
+  }
+}

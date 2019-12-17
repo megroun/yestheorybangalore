@@ -1,0 +1,111 @@
+#root {
+  overflow: hidden;
+}
+.collegeLogoHeader {
+  height: 62px;
+  margin-top: 0px;
+  margin-left: 20px;
+  width: 72px;
+}
+#navBar {
+  position: fixed;
+  z-index: 9999;
+  top: -1px;
+  height: 63px;
+  width: 100%;
+  box-shadow: 0px 2px 4px 0px rgb(75, 73, 73);
+}
+#logoName {
+  color: #61dafb;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  padding-left: 1%;
+  outline: none;
+}
+
+.homeHeaderTitle {
+  position: relative;
+  left: 50%;
+  color: #ffffff;
+  padding-right: 25%;
+  color: #61dafb;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  outline: none;
+}
+.aboutHeaderTitle {
+  position: relative;
+  left: 65%;
+  /* left: 50%; */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.servicesHeaderTitle {
+  position: relative;
+  left: 100%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.contactHeaderTitle {
+  position: relative;
+  left: 132%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.homeHeaderTitle:hover {
+  text-decoration: none;
+  color: #61dafb;
+}
+.aboutHeaderTitle:hover {
+  text-decoration: none;
+  color: #ffff00;
+}
+.servicesHeaderTitle:hover {
+  text-decoration: none;
+  color: #ffff00;
+}
+.contactHeaderTitle:hover {
+  text-decoration: none;
+  color: #ffff00;
+}
+.divisionList {
+  position: relative;
+  left: 53%;
+  top: 5px;
+  list-style-type: none;
+}
+@media only screen and (max-width: 800px) {
+  #logoName {
+    display: block;
+    /* font-size: 12px; */
+    margin-left: -72px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #root {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .divisionList {
+    left: -7%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .aboutHeaderTitle {
+    left: 84%;
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .servicesHeaderTitle {
+    left: 97%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .contactHeaderTitle {
+    left: 113%;
+  }
+}

@@ -1,0 +1,93 @@
+#logoNamefooter {
+  color: #61dafb;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  outline: none;
+}
+.collegeLogofooter {
+  height: 100px;
+  margin-top: -33px;
+  margin-left: -6px;
+}
+#byName {
+  margin-left: 75px;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer {
+  height: 136px;
+  width: 100%;
+  /* position: relative; */
+  position: absolute;
+}
+.info {
+  position: relative;
+  text-decoration: none;
+  list-style-type: none;
+  color: #61dafb;
+  top: 15px;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-indent: 77px;
+  vertical-align: middle;
+}
+.title {
+  border-bottom: 1px solid slategrey;
+}
+.title1 {
+  border-bottom: 1px solid slategrey;
+}
+.title2 {
+  border-bottom: 1px solid slategrey;
+}
+.links {
+  position: relative;
+  top: 10%;
+  left: 0%;
+  color: white;
+}
+#twitter {
+  margin-right: -5px;
+}
+.Social_Media {
+  color: #61dafb;
+  position: relative;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  left: 70%;
+}
+.Address {
+  color: #61dafb;
+  position: relative;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  bottom: 77%;
+  left: 70%;
+}
+@media only screen and (max-width: 1000px) {
+  .Address,
+  .Social_Media {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #logoNamefooter {
+    vertical-align: middle;
+    text-align: center;
+    margin: auto auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #byName {
+    vertical-align: middle;
+    text-align: center;
+    margin: auto auto;
+    display: block;
+    font-size: 10px;
+  }
+}

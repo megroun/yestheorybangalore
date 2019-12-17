@@ -1,0 +1,92 @@
+.moreInfo {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 720px;
+  /* top: 49px;
+  position: relative; */
+}
+.aboutmainBanner {
+  width: 100%;
+  height: 747px;
+}
+.tagOneAbout {
+  color: black;
+  background-image: url("../images/djParty.jpg");
+  height: 500px;
+}
+.aboutInfo {
+  width: 25%;
+  height: 370px;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  background-color: rgb(39, 36, 36);
+  opacity: 0.9;
+}
+.aboutInfo ul li {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 12px;
+  /* list-style-type: none; */
+}
+#mainInfo {
+  margin-top: 40px;
+}
+.quote {
+  color: white;
+  position: relative;
+  bottom: 85%;
+  left: 35%;
+}
+#cardTwo {
+  left: 38%;
+}
+#cardThree {
+  left: 70%;
+}
+.aboutcardTitle {
+  margin-left: 38%;
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+@media only screen and (max-width: 800px) {
+  .quote {
+    bottom: 75%;
+    left: 4%;
+    font-size: 33px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #cardTwo,
+  #cardThree {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #cardOne {
+    width: 91%;
+    left: 2%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .aboutmainContainer {
+    position: relative;
+    bottom: -74px;
+    left: 38px;
+    margin-bottom: 90px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .aboutcardTitle {
+    margin-left: 15%;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: -7%;
+    font-size: 25px;
+  }
+}

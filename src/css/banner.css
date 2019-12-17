@@ -1,0 +1,80 @@
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 720px;
+}
+.mainBanner {
+  width: 100%;
+  /* height: 720px; */
+  height: auto;
+}
+.basicInfo {
+  width: 28%;
+  height: 250px;
+  /* height: 370px; */
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  background-color: rgb(39, 36, 36);
+  opacity: 0.9;
+}
+.basicInfo ul li {
+  color: #ffff;
+  text-decoration: none;
+  padding-bottom: 12px;
+  /* list-style-type: none; */
+}
+#firstInfo {
+  margin-top: 40px;
+}
+/* .downArrowBorder {
+  position: relative;
+  bottom: 85px;
+  left: 50%;
+  width: 4%;
+  height: 65px;
+  border-radius: 42%;
+  border: solid 1px red;
+} */
+.downArrow {
+  /* position: relative;
+  bottom: 85px;
+  left: 50%;
+  font-weight: bold; */
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .basicInfo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #firstInfo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .cardTitle {
+    margin-left: 11%;
+    font-size: 16px;
+    position: relative;
+    bottom: 32px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .mainBanner {
+    position: absolute;
+    top: 62px;
+  }
+}

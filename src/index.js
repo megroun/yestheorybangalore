@@ -2,6 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './css/navbar.css';
+import './css/banner.css';
+import './css/info.css';
+import './css/about.css';
+import './css/partners.css';
+import "./css/footer.css";
+import "./css/aboutUs.css";
+import "./css/services.css";
+import "./css/contact.css";
+// import "./css/slide.css";
+import "bootstrap/dist/css/bootstrap.css";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
